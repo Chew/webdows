@@ -9,7 +9,7 @@ new explorer.window()
 .title('Welcome to Webdows')
 .resize(570, 300)
 .center()
-.controls('min')
+.controls(['min'])
 .icon('webdows/resources/icons/logo.png')
 .callback(function() {
     var butts = [
