@@ -10,7 +10,6 @@ new explorer.window()
 .resize(570, 300)
 .center()
 .icon('webdows/resources/icons/logo.png')
-.controls(['min','max'])
 .callback(function() {
     var butts = [
         {
