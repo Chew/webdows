@@ -1,31 +1,58 @@
-<img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/banner.png">
-<hr>
-<p align="center">
-<a href="https://github.com/belowaverage-org/webdows/wiki"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/docs.png"></a>
-<a href="http://belowaverage.org/webdows/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/demo.png"></a>
-<a href="https://belowaverage.org/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/website.png"></a>
-</p>
-<hr>
-<h2 align="center">Webdows is a dynamic window API for the web browser designed to look and feel like Microsoft Windows</h2>
-<hr>
-<h1>Features</h1>
+![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/banner.png)
 
-* Simple API
 
-* Built in preloader
 
-* Well documented (Comming soon)
+--------------------------------------------------------------------------------
 
-* Supported by Chrome, Safari, Firefox, and Opera.
 
-* Utilizes jQuery
 
-* 99% CSS vector design. *Bitmaps rarely used for styling*
 
-* Customizable themes
 
-<h1>Simple API</h1>
-<h3>Making a window</h3>
+[![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/docs.png)](https://github.com/belowaverage-org/webdows/wiki) [![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/demo.png)](http://belowaverage.org/webdows/) [![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/website.png)](https://belowaverage.org/)
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+# Webdows is a dynamic window API for the web browser designed to look and feel like Microsoft Windows
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+# Features
+
+- Simple API
+
+- Built in preloader
+
+- Well documented (Comming soon)
+
+- Supported by Chrome, Safari, Firefox, and Opera.
+
+- Utilizes jQuery
+
+- 99% CSS vector design. _Bitmaps rarely used for styling_
+
+- Customizable themes
+
+
+
+# Simple API
+
+
+
+## Making a window
 
 ```javascript
 new explorer.window()
@@ -36,10 +63,10 @@ new explorer.window()
 });
 ```
 
-<img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/simpleapi1.PNG">
+![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/simpleapi1.PNG)
 
-<h3>Creating a context menu</h3>
-  
+## Creating a context menu
+
 ```javascript
 new explorer.context()
 .append([
@@ -52,4 +79,5 @@ new explorer.context()
     }
 ]);
 ```
-<img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/context.png">
+
+![](https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/context.png)
